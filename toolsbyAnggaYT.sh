@@ -1,6 +1,6 @@
 !/bin/bash
 #version 1.0
-
+clear
 def loginSC():
 	os.system('clear')
 	print"\033[1;97mTIDAK TAHU USER &PASS?,KUNJUNGI CHANEL Angga YT\n"
@@ -31,10 +31,10 @@ enda='\033[0m'
 blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
-cowsay -f eyes " Angga YouTube" | lolcat
-figlet -f slant "Angga YouTube" | lolcat
+cowsay -f eyes " Angga YT" | lolcat
+figlet -f slant "Angga YT" | lolcat
 echo "<=======================[]======================>" | lolcat
-echo "<=======[        Tools By AnggaYT       ]=======>" | lolcat
+echo "<=======[        Tools By Angga YT      ]=======>" | lolcat
 echo "<=======[    Concact Me : 08976341427   ]=======>" | lolcat
 echo "<========================[]=====================>" | lolcat
 
@@ -74,7 +74,7 @@ figlet -f slant "Angga YT"|lolcat
 sleep 1
 git clone https://github.com/anggaYouTube/darkfb
 cd darkfb
-python2 dkfb.py
+python2 dkfb
 fi
 
 sleep 2
