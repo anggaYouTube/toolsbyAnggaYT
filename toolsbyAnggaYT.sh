@@ -24,6 +24,34 @@ echo "<=======[        Tools By AnggaYT       ]=======>" | lolcat
 echo "<=======[    Concact Me : 08976341427   ]=======>" | lolcat
 echo "<========================[]=====================>" | lolcat
 
+def siapa():
+	os.system('clear')
+	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	if nama =="":
+		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		time.sleep(1)
+		siapa()
+	else:
+		os.system('clear')
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		time.sleep(1)
+		loginSC()
+		
+		
+def loginSC():
+	os.system('clear')
+	print"\033[1;97mTIDAK TAHU USER &PASS?,KUNJUNGI CHANEL Angga YT\n"
+	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="Angga" and password =="YT":
+		print"\033[1;96m[✓] \033[1;92mLOGIN SUCCES "
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mSALAH!!"
+		time.sleep(1)
+                LoginSC()
+
 sleep 1
 
 ###################################################
@@ -39,18 +67,17 @@ exit
 echo "\33[0;32mSUBSCRIBE CHANEL Angga YT!!!"
         sleep 3
         sleep 2
-echo "\33[36;1minstall bahan dulu pilih no 8"
+echo "\33[36;1minstall bahan dulu pilih no 7"
 echo "\33[37;1m"
     sleep 2
       echo "\33[1;33m ( 1 ) hack fb"
       echo "\33[32;1m ( 2 ) auto like fb"
       echo "\33[1;33m ( 3 ) lacak orang"
-      echo "\33[36;1m ( 4 ) main cmatrix"
-      echo "\33[32;1m ( 5 ) fishing fb"
-      echo "\33[1;33m ( 6 ) CCTV"
-      echo "\33[32;1m ( 7 ) spam sms ALL"
-      echo "\33[1;33m ( 8 ) install bahan dulu"
-      echo "\33[1;32m ( 9 ) exit"
+      echo "\33[32;1m ( 4 ) fishing fb"
+      echo "\33[1;33m ( 5 ) CCTV"
+      echo "\33[32;1m ( 6 ) spam sms ALL"
+      echo "\33[1;33m ( 7 ) install bahan dulu"
+      echo "\33[1;32m ( 8 ) exit"
 
       echo "________________________________________"
 read -p " yg udah subs semoga lancar : " pil ;
@@ -59,9 +86,9 @@ then
 clear
 figlet -f slant "Angga YT"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/mbf
-cd mbf
-python2 MBF.py
+git clone https://github.com/anggaYouTube/darkfb
+cd darkfb
+python2 dkfb.py
 fi
 
 sleep 2
@@ -87,13 +114,6 @@ fi
 
 if [ $pil = 4 ]
 then
-echo "selamat menikmati"
-cd $HOME
-cmatrix
-fi
-
-if [ $pil = 5 ]
-then
 clear
 figlet -f slant "Angga YT"|lolcat
 sleep 1
@@ -102,7 +122,7 @@ cd shellphish
 bash shellphish.sh
 fi
 
-if [ $pil = 6 ]
+if [ $pil = 5 ]
 then
 clear
 figlet -f slant "Angga YT"|lolcat
@@ -114,7 +134,7 @@ pkg install python2
     python2 scan.py
 fi
 
-if [ $pil = 7 ]
+if [ $pil = 6 ]
 then
 clear
 figlet -f slant "Angga YT"|lolcat
@@ -125,7 +145,7 @@ git clone https://github.com/4L13199/LITESPAM
 fi
 
 
-if [ $pil = 8 ]
+if [ $pil = 7 ]
 then
 clear
 apt update && apt upgrade
@@ -145,7 +165,7 @@ pkg install nano
 figlet -f slant " DONE"|lolcat
 fi
 
-if [ $pil = 9 ]
+if [ $pil = 8 ]
 
 then
 clear
