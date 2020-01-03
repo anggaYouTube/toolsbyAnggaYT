@@ -1,6 +1,20 @@
 !/bin/bash
 #version 1.0
 
+def loginSC():
+	os.system('clear')
+	print"\033[1;97mTIDAK TAHU USER &PASS?,KUNJUNGI CHANEL Angga YT\n"
+	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="Angga" and password =="YT":
+		print"\033[1;96m[✓] \033[1;92mLOGIN SUCCES "
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mSALAH!!"
+		time.sleep(1)
+                LoginSC()
+
 clear
 # Variable warna
 b='\033[1m'
@@ -23,34 +37,6 @@ echo "<=======================[]======================>" | lolcat
 echo "<=======[        Tools By AnggaYT       ]=======>" | lolcat
 echo "<=======[    Concact Me : 08976341427   ]=======>" | lolcat
 echo "<========================[]=====================>" | lolcat
-
-def siapa():
-	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
-	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang benar"
-		time.sleep(1)
-		siapa()
-	else:
-		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
-		time.sleep(1)
-		loginSC()
-		
-		
-def loginSC():
-	os.system('clear')
-	print"\033[1;97mTIDAK TAHU USER &PASS?,KUNJUNGI CHANEL Angga YT\n"
-	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
-	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="Angga" and password =="YT":
-		print"\033[1;96m[✓] \033[1;92mLOGIN SUCCES "
-		time.sleep(1)
-		login()
-	else:
-		print"\033[1;96m[!] \033[1;91mSALAH!!"
-		time.sleep(1)
-                LoginSC()
 
 sleep 1
 
